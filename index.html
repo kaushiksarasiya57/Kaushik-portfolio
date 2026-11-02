@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A personal portfolio for a Computer Science Engineering student."
+    />
+    <title>Kaushik Sarasiya — CSE Student</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="site-glow glow-one" aria-hidden="true"></div>
+    <div class="site-glow glow-two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Go to homepage">
+          <span class="brand-mark">&lt;/&gt;</span>
+          <span>Kaushik Sarasiya</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Open navigation menu</span>
+          <span></span><span></span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link nav-cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> CSE student · learning in public</p>
+          <h1>Building my future,<br /><em>one line of code</em><br />at a time.</h1>
+          <p class="hero-description">
+            A first-year Computer Science Engineering student exploring thoughtful design,
+            practical programming, and the ideas that make the web feel alive.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View my work <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#about">More about me <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <div class="hero-art reveal reveal-delay" aria-hidden="true">
+          <div class="orbit orbit-large"></div>
+          <div class="orbit orbit-small"></div>
+          <div class="code-card">
+            <div class="code-card-bar"><i></i><i></i><i></i><span>future.js</span></div>
+            <div class="code-content">
+              <span class="line"><b>const</b> future <b>=</b> <span class="accent">{</span></span>
+              <span class="line indent">curious: <span class="string">true</span>,</span>
+              <span class="line indent">alwaysLearning: <span class="string">true</span>,</span>
+              <span class="line indent">build: <span class="function">()</span> <b>=&gt;</b> <span class="string">"impact"</span></span>
+              <span class="line"><span class="accent">}</span>;</span>
+            </div>
+          </div>
+          <div class="float-chip chip-top">// hello, world</div>
+          <div class="float-chip chip-bottom"><span>✦</span> Open to learning</div>
+          <div class="art-spark spark-one">✦</div>
+          <div class="art-spark spark-two">+</div>
+        </div>
+        <a class="scroll-cue" href="#about" aria-label="Scroll to about section"><span></span> Scroll to explore</a>
+      </section>
+
+      <section class="about section container" id="about">
+        <div class="section-label reveal"><span>01</span> About me</div>
+        <div class="about-grid">
+          <div class="about-heading reveal">
+            <h2>Curious by nature.<br /><em>Driven</em> by possibility.</h2>
+          </div>
+          <div class="about-copy reveal reveal-delay">
+            <p>
+              I'm a first-year Computer Science Engineering student at <strong>Government Engineering College Rajkot</strong>.
+              I’m at the beginning of my journey, building a foundation in programming and discovering the
+              kinds of problems I want to solve.
+            </p>
+            <p>
+              Right now, I’m focused on learning with intention — turning small ideas into working projects,
+              asking better questions, and steadily sharpening my craft.
+            </p>
+            <a class="text-link" href="#contact">Say hello <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <div class="about-stats reveal">
+          <div><strong>01</strong><span>Year of study</span></div>
+          <div><strong>CSE</strong><span>Field of study</span></div>
+          <div><strong>∞</strong><span>Things to learn</span></div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <div class="container">
+          <div class="section-label reveal"><span>02</span> Skills &amp; toolkit</div>
+          <div class="skills-intro reveal">
+            <h2>Growing my <em>technical</em> foundation.</h2>
+            <p>Technologies I'm currently learning and using in coursework and practice.</p>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card reveal">
+              <div class="skill-icon purple" aria-hidden="true">&lt;/&gt;</div>
+              <h3>Programming</h3>
+              <p>Building confidence in core concepts, logic, and problem solving.</p>
+              <ul class="tag-list" aria-label="Programming skills"><li>C</li><li>Python</li><li>Java</li></ul>
+            </article>
+            <article class="skill-card reveal reveal-delay">
+              <div class="skill-icon blue" aria-hidden="true">◫</div>
+              <h3>Web foundations</h3>
+              <p>Creating responsive interfaces with an eye for clean structure.</p>
+              <ul class="tag-list" aria-label="Web skills"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+            </article>
+            <article class="skill-card reveal reveal-delay-2">
+              <div class="skill-icon pink" aria-hidden="true">✦</div>
+              <h3>Always exploring</h3>
+              <p>Learning tools and ideas that help turn curiosity into capability.</p>
+              <ul class="tag-list" aria-label="Learning interests"><li>Git</li><li>UI/UX</li><li>DSA</li></ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section container" id="projects">
+        <div class="projects-top">
+          <div class="section-label reveal"><span>03</span> Selected work</div>
+          <p class="reveal">A space for the projects I'm building as I learn.</p>
+        </div>
+        <div class="projects-heading reveal">
+          <h2>Small builds. <em>Big</em> lessons.</h2>
+          <div class="project-controls" aria-hidden="true"><span class="control-arrow">←</span><span class="control-arrow enabled">→</span></div>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card featured reveal">
+            <div class="project-visual visual-portfolio">
+              <div class="mock-browser">
+                <div class="mock-top"><i></i><i></i><i></i></div>
+                <div class="mock-layout"><span class="mock-logo"></span><span></span><span></span><span></span></div>
+                <div class="mock-hero"><div></div><div></div><div></div></div>
+                <div class="mock-lines"><i></i><i></i><i></i></div>
+              </div>
+              <span class="project-number">01</span>
+            </div>
+            <div class="project-info">
+              <div><p class="project-type">Personal project · placeholder</p><h3>Your first project</h3></div>
+              <a class="round-link disabled" href="#contact" aria-label="Project details coming soon">↗</a>
+            </div>
+            <p class="project-description">Replace this card with a real project when you're ready to share it.</p>
+            <ul class="project-tags"><li>Coming soon</li><li>Learning by building</li></ul>
+          </article>
+          <article class="project-card reveal reveal-delay">
+            <div class="project-visual visual-lab">
+              <div class="grid-lines"></div><div class="lab-orb one"></div><div class="lab-orb two"></div><div class="lab-cross">+</div>
+              <span class="project-number">02</span>
+            </div>
+            <div class="project-info">
+              <div><p class="project-type">In progress · placeholder</p><h3>Next experiment</h3></div>
+              <a class="round-link disabled" href="#contact" aria-label="Project details coming soon">↗</a>
+            </div>
+            <p class="project-description">An open canvas for the next thing you decide to make.</p>
+            <ul class="project-tags"><li>In progress</li><li>Exploration</li></ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="container contact-wrap reveal">
+          <div class="section-label"><span>04</span> Contact</div>
+          <div class="contact-main">
+            <p class="eyebrow">Let's connect</p>
+            <h2>Have an idea?<br /><em>Let's talk.</em></h2>
+            <p>I'm always happy to connect, learn from others, and hear about interesting opportunities.</p>
+            <a class="email-link" href="mailto:kaushiksarasiyadeveloper@gmail.com">kaushiksarasiyadeveloper@gmail.com <span>↗</span></a>
+          </div>
+          <div class="contact-decoration" aria-hidden="true"><span>✦</span><span>✦</span><span>✦</span></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <a class="brand" href="#home"><span class="brand-mark">&lt;/&gt;</span><span>Kaushik Sarasiya</span></a>
+      <p>Designed &amp; built as a learning journey.</p>
+      <div class="social-links">
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+        <a href="mailto:hello@example.com">Email <span>↗</span></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
